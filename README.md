@@ -1,69 +1,42 @@
+## 📊 E-Commerce Company Case Study (SQL-Based Retail Analytics)
 
-### **Retail Analytics Case Study Using SQL**
+This repository presents a comprehensive case study simulating the role of a **data analyst** in a modern e-commerce company. Using structured SQL queries and multiple interrelated datasets, the project explores various business verticals with the goal of enhancing **data-driven decision-making** across departments such as **marketing, inventory management, operations**, and **sales strategy**.
 
-This project is a comprehensive case study in retail analytics, focusing on extracting actionable insights from retail transaction data using SQL. The primary objective was to support business decision-making by analyzing customer behavior, product performance, and sales trends. By leveraging structured query language (SQL), the analysis provided valuable intelligence for marketing optimization, inventory management, and customer relationship strategies.
+### 🔍 Key Business Objectives:
 
----
-
-### **Project Goals**
-
-The case study aimed to:
-
-* Understand consumer purchasing behavior and segment customers based on loyalty, frequency, and monetary value.
-* Identify top-performing and underperforming products across different categories and time periods.
-* Analyze sales trends and seasonality to support demand forecasting and promotional planning.
-* Clean and transform raw retail data to ensure high-quality and reliable analysis outputs.
+* **Customer Insights:** Analyze customer data to segment users, understand buying behavior, and support personalized marketing campaigns.
+* **Product Performance Analysis:** Identify high-performing and underperforming products based on sales data to guide stock planning, pricing, and promotional strategies.
+* **Sales Optimization:** Detect sales trends, peak purchase periods, and underperforming channels to enhance revenue and streamline operations.
+* **Inventory Management:** Use order and product-level data to ensure optimal stock levels while minimizing surplus and stockouts.
 
 ---
 
-### **Key Areas of Analysis**
+### 📁 Datasets Overview:
 
-#### 🧍‍♀️ **Customer Segmentation**
+The analysis is performed using four key datasets, each linked through primary keys:
 
-* Used SQL queries to group customers based on Recency, Frequency, and Monetary (RFM) values.
-* Distinguished between high-value loyal customers, new customers, and churned customers.
-* Helped define personalized marketing strategies and loyalty programs.
+* **Customers Dataset:** Includes `customer_id`, `name`, and `location`.
+* **Products Dataset:** Contains `product_id`, `product_name`, `category`, and `price`.
+* **Orders Dataset:** Captures `order_id`, `order_date`, `customer_id`, and `total_amount`.
+* **OrderDetails Dataset:** Breaks down individual order line items with `order_id`, `product_id`, `quantity`, and `price_per_unit`.
 
-#### 📦 **Product Performance Analysis**
-
-* Evaluated product-level metrics such as total sales, quantity sold, average selling price, and revenue contribution.
-* Identified fast-moving (high-volume) and high-margin products, as well as products with declining sales.
-* Provided insights to optimize product assortment and discontinuation decisions.
-
-#### 📈 **Sales Trend Analysis**
-
-* Analyzed monthly and quarterly sales data to uncover seasonal patterns and growth trajectories.
-* Measured performance across different regions, customer demographics, and product categories.
-* Supported business planning by highlighting peak seasons and slow periods.
-
-#### 🧹 **Data Cleaning & Transformation**
-
-* Removed duplicates, standardized formats, and dealt with missing or inconsistent values.
-* Joined multiple datasets (customers, orders, products, order details) using SQL joins to form a unified view.
-* Created derived fields (e.g., total order value, price per unit) for deeper analysis.
+These datasets enable a **relational database model**, ideal for SQL-based querying and efficient data joining for deep analysis.
 
 ---
 
-### **Tools & Technologies**
+### 🛠️ Skills & Tools Used:
 
-* **SQL**: Core tool for querying, cleaning, joining, and analyzing datasets.
-* **Datasets Used**:
-
-  * `Customers`: customer\_id, name, location
-  * `Products`: product\_id, name, category, price
-  * `Orders`: order\_id, order\_date, customer\_id, total\_amount
-  * `OrderDetails`: order\_id, product\_id, quantity, price\_per\_unit
+* SQL (Joins, Grouping, Aggregation, Filtering, Window Functions)
+* Relational Database Design
+* Data Cleaning & Normalization
+* Business Metrics Analysis (Sales, Profitability, Customer Segmentation)
 
 ---
 
-### **Business Impact & Insights**
+### ✅ Project Outcomes:
 
-* **Inventory Optimization**: Identified which products to restock, reduce, or discontinue based on demand trends.
-* **Targeted Marketing**: Enabled personalized outreach based on customer behavior and purchase history.
-* **Operational Efficiency**: Informed stock planning, customer retention strategies, and promotional timing with data-backed insights.
-* **Sales Uplift**: Suggested data-driven actions that could lead to improved conversion rates and increased average order value.
+* Delivered actionable insights to improve **sales performance**, **inventory efficiency**, and **customer engagement**.
+* Enabled **cross-functional collaboration** through data storytelling and visual summaries.
+* Showcased the real-world value of SQL skills in solving core business problems.
 
 ---
-
-This project demonstrates the power of SQL in turning raw data into meaningful business insights and highlights the critical role of data analysts in driving evidence-based decision-making in the retail sector.
-
